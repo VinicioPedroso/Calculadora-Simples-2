@@ -37,7 +37,7 @@ btnDiv.addEventListener('click' ,function (){
     var valor2 = n2.value
 
     if(valor2 === "0"){
-        document.querySelector("#result").innerText = "Não é possível"
+        document.querySelector("#result").innerText = "Eu te amo!"
     }else{
         if (valor1 === "", valor2 ===""){
             document.getElementById('result').innerText = "";
